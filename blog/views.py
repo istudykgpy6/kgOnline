@@ -7,3 +7,5 @@ def index(request):
 def gogogo(request):
     return render(request, "blog/gogogo.html")
 
+def online(request):
+    return render(request, "blog/online.html")

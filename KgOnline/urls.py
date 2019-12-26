@@ -27,8 +27,9 @@ urlpatterns = [
 
 
 
-url(r'^abc/$', views.index, name='index'),
-url(r'^abcd/$', views.gogogo, name='gogogo'),
+url(r'^index/$', views.index, name='index'),
+url(r'^gogogo/$', views.gogogo, name='gogogo'),
+url(r'^online/$', views.gogogo, name='online'),
 ]
 
 
